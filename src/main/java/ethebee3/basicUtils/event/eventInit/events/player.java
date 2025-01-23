@@ -2,7 +2,6 @@ package ethebee3.basicUtils.event.eventInit.events;
 
 import ethebee3.basicUtils.event.events.eventManager;
 import ethebee3.basicUtils.event.events.player.*;
-import ethebee3.basicUtils.event.events.player.OnTick;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
