@@ -25,7 +25,7 @@ public class chunkData {
         try {
             chunkDataConfig.save(chunkDataFile);
         } catch (IOException e) {
-            logUtils.logError(e.getMessage());
+            e.printStackTrace();
         }
     }
 }

@@ -25,7 +25,7 @@ public class wordsData {
         try {
             wordsDataConfig.save(wordsDataFile);
         } catch (IOException e) {
-            logUtils.logError(e.getMessage());
+            e.printStackTrace();
         }
     }
 }

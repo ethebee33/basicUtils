@@ -25,7 +25,7 @@ public class tempData {
         try {
             tempDataConfig.save(tempDataFile);
         } catch (IOException e) {
-            logUtils.logError(e.getMessage());
+            e.printStackTrace();
         }
     }
 }
